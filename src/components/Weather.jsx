@@ -27,7 +27,7 @@ const Weather = () => {
         <div className='flex justify-center align-middle space-x-2'>
           <input 
             type="text" 
-            placeholder="Search" 
+            placeholder="Search City" 
             className="p-2 px-5 rounded-full w-56 outline-none hover:shadow-sm hover:bg-white/90"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
